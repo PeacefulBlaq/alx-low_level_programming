@@ -8,11 +8,9 @@
 int main(void)
 {
 	char lowercase_letter, uppercase_letter;
-
-	printf("Lowercase alphabets: ");
 	
 	for(lowercase_letter = 'a'; lowercase_letter <= 'z'; ++lowercase_letter){
-		printf("%c ", lowercase_letter);
+		printf("%c", lowercase_letter);
 	}
 
 	for(uppercase_letter = 'Z'; uppercase_letter <= 'Z'; ++uppercase_letter){
