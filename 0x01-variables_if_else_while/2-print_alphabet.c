@@ -2,6 +2,7 @@
 
 /**
  * This function prints all alphabets in lowercase
+ * which could be useful for a later project
  */
 int main(void)
 {
