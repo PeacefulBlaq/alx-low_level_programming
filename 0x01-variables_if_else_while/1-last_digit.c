@@ -26,7 +26,7 @@
 	}
 	else if (r == 0)
 	{
-		printf(" and is 0");
+		printf("and is 0");
 	}
 	else
 	{
