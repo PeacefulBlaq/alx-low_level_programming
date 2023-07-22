@@ -17,6 +17,7 @@ int main(void)
 
 	for (uppercase_letter = 'Z'; uppercase_letter <= 'Z'; ++uppercase_letter)
 	{
+		printf("%c", lowercase_letter);
 		printf("%c", uppercase_letter);
 	}
 
