@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+ * This function prints all alphabets in lowercase
+ */
 int main(void)
 {
 	char letter;
@@ -8,8 +11,6 @@ int main(void)
 	{
 		printf("%c", letter);
 	}
-
-	printf("\n");
-
-	return 0;
+printf("\n");
+return (0);
 }
