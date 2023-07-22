@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	char letter;
 
-	for (letter = 'a'; letter <= 'z'; ++letter){
+	for (letter = 'a'; letter <= 'z'; ++letter)
+	{
 		printf("%c", letter);
 	}
 
