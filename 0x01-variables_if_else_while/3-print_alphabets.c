@@ -1,26 +1,19 @@
 #include <stdio.h>
 
 /**
- * This function prints alphabets a to z
- * both in lowercase all through
- * and in upper case all through
- */
+ * C programme to print all alphabets in both
+ * upper and lower case
+ * */
 
-int main(void)
+int main()
 {
-	char lowercase_letter, uppercase_letter;
+	char  i;
 
-	for (lowercase_letter = 'a'; lowercase_letter <= 'z'; ++lowercase_letter)
-	{
-		printf("%c", lowercase_letter);
-	}
+	for(i='A'; i<= 'Z'; ++i);
+	printf("%c",i);
 
-	for (uppercase_letter = 'Z'; uppercase_letter <= 'Z'; ++uppercase_letter)
-	{
-		printf("%c", uppercase_letter);
-	}
+	for(i='a'; i<='z'; ++i);
+	printf("%c",i);
 
-	printf("%c", lowercase_letter);
-	printf("%c", uppercase_letter);
-return (0);
+	return 0;
 }
