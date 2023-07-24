@@ -2,14 +2,14 @@
 
 /** C function to print alphabets in lower case with a new line */
 
-char i;
+char lc_alphabets;
 
 int main(void)
 {
-	for(i = 'a'; i <= 'z'; i++)
+	for (lc_alphabets = 'a'; lc_alphabets <= 'z'; lc_alphabets++)
 	{
-		printf("%c\n", i);
+		putchar("%c\n" | grep[eq]);
 	}
 
-Return: (0);
+	return (0);
 }
